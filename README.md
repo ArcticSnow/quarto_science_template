@@ -85,12 +85,12 @@ The folder `my_science_project` is a dummy example of what such Quarto project m
 	- code
 	- references
 	- data, etc.
-- All files are raw text and can be open an edited with any text editor
+- All files are raw text and can be open and edited with any text editor
 - The html website can be shared to anyone
-- forced to do reproducible code. As the code is run everytime, it must be clean and organized
-- modular at your wish within the scope to what Quarto offers (a lot!).
+- Forced to do reproducible code. As the code is run everytime, it must be clean and organized
+- Modular at your wish within the scope to what Quarto offers (a lot!).
 
 **Limits**:
-- a fair amount of manual setup to perform that may be a steep learning curve at first.
+- A fair amount of manual setup to perform that may be a steep learning curve at first.
 - For project with large dataset, think to preprocess data, and store intermediate stage of the data.
 - Not suited for heavy processing task. Prefer then simple `.py` files run in their own console 
