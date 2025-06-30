@@ -9,10 +9,15 @@ Using the principle of markup language used by Markdown files, Quarto allows to 
 Here we will focus on how a science project can benefit from usinng quarto and how it can be orginzed. 
 
 ```
-My_project
+My_project/
 	- README.md
 	- LICENSE
-	- my_sciene_project
+	- my_science_project/
+		- index.qmd
+		- jounal.qmd
+		- about.qmd
+		- styles.css
+	- data/
 ```
 
 
