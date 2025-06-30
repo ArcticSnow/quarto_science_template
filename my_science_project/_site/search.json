@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "myscript.html",
+    "href": "myscript.html",
+    "title": "Example Python scrip",
+    "section": "",
+    "text": "Example for how to use quarto to make a science project.\nThe script below is using the Iris dataset ((Fisher1936?))."
+  },
+  {
+    "objectID": "myscript.html#scripting",
+    "href": "myscript.html#scripting",
+    "title": "Example Python scrip",
+    "section": "scripting",
+    "text": "scripting\n\nimport pandas as pd \nimport matplotlib.pyplot as plt\n\n\ndf = pd.read_csv('../data/iris.csv')\n\nplt.figure()\nplt.scatter(df.sepal_length, df.sepal_width, c=df.petal_length)\nplt.colorbar(label='petal length (cm)')\n\nplt.xlabel('Sepal length (cm)')\nplt.ylabel('Sepal width (cm)')\nplt.show()"
+  },
+  {
+    "objectID": "myscript.html#references",
+    "href": "myscript.html#references",
+    "title": "Example Python scrip",
+    "section": "References",
+    "text": "References"
+  }
+]
