@@ -91,7 +91,7 @@ Current return on experience thoughts as to why (or not) using this system for y
 	- code
 	- references
 	- data, etc.
-- All files are raw text and can be open and edited with any text editor
+- All files are raw text and can be open and edited with any text editor. This means it easily integrates with `git` as well. 
 - The html website can be shared to anyone
 - Forced to do reproducible code. As the code is run everytime, it must be clean and organized
 - Modular at your wish within the scope to what Quarto offers (a lot!).
