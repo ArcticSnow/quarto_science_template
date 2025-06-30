@@ -77,7 +77,10 @@ format:
 
 Finally, start exploring the data using `.qmd` files. These files can be added to the index either as links or tabs, to be modified in the  `_quarto.yml`. 
 
-The folder `my_science_project` is a dummy example of what such Quarto project may looks like. Once all is in place, simply run the website locally with `quarto preview my_science_project`.
+The folder `my_science_project` is a dummy example of what such Quarto project may looks like. Once all is in place, simply run the website locally with running the following command in your shell:
+```sh
+quarto preview my_science_project`.
+```
 
 ## 2. Why (not)?
 Current return on experience thoughts as to why (or not) using this system for your science project.
