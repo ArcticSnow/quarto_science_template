@@ -8,6 +8,7 @@ Using the principle of markup language (*e.g.* Markdown files), Quarto allows to
 
 Here we will focus on how a science project can benefit from using quarto and how it can be orginzed. 
 
+## 1. Prepare the project Architecture
 ```
 My_project/
 	- README.md
@@ -78,7 +79,8 @@ Finally, start exploring the data using `.qmd` files. These files can be added t
 
 The folder `my_science_project` is a dummy example of what such Quarto project may looks like. Once all is in place, simply run the website locally with `quarto preview my_science_project`.
 
----
+## 2. Why (not)?
+Current return on experience thoughts as to why (or not) using this system for your science project.
 
 **Advantages**:
 - bring everything in one dynamic document
