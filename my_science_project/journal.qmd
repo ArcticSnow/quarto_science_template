@@ -3,6 +3,6 @@ title: "Journal"
 ---
 
 ## 2025-06-30
-Created the github repo
+Created the github repo.
 
 

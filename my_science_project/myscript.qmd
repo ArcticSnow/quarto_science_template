@@ -1,0 +1,32 @@
+---
+title: "Example Python scrip"
+bibliography: references.bib
+---
+
+Example for how to use quarto to make a science project.
+
+Here is an example of citation for [@sommer2015]. 
+
+## scripting
+
+```{python}
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+
+```{python}
+df = pd.read_csv()
+
+plt.figure()
+
+plt.show()
+
+```
+
+
+## References
+
+::: {#refs}
+:::

@@ -33,7 +33,7 @@ mkdir data
 
 Create a journal page, bibtex reference file:
 ```sh
-touch my_science_site/journal.qmd
+touch my_science_project/journal.qmd
 
 ```
 The journal page will be used to summarize all activitie into a single page for records.
@@ -41,7 +41,7 @@ The journal page will be used to summarize all activitie into a single page for 
 
 Quarto can parse bibtex reference given Pandoc is installed.
 ```sh
-touch my_science_site/references.bib
+touch my_science_project/references.bib
 ```
 
 
@@ -73,4 +73,8 @@ format:
     bibliographystyle: apa
 ```
 
-Finally, start explorind the data using `.qmd` files. These files can be added to the index either as link or tabs (modify `_quarto.yml` accordingly. 
+Finally, start explorind the data using `.qmd` files. These files can be added to the index either as links or tabs (modify `_quarto.yml` accordingly. 
+
+The folder `my_science_project` is a dummy example of what such Quarto project may looks like.
+
+Once all is in place, simply run the website locally with `quarto preview my_science_project`

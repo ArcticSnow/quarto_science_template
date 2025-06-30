@@ -5,3 +5,8 @@ title: "My Project"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Example Python script
+
+Folder `attachments/` can be used to store images and any type of media used in the qmd files.
+
