@@ -1,4 +1,4 @@
-# quarto_science_project
+# Quarto Science Project
 An example of how to organize a science project using Quarto
 
 
