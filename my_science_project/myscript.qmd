@@ -5,7 +5,8 @@ bibliography: references.bib
 
 Example for how to use quarto to make a science project.
 
-The script below is using the Iris dataset ([@Fisher1936]). 
+The script below is using the Iris dataset [@Fisher1936]. 
+
 
 ## scripting
 

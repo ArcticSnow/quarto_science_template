@@ -4,7 +4,7 @@
     "href": "myscript.html",
     "title": "Example Python scrip",
     "section": "",
-    "text": "Example for how to use quarto to make a science project.\nThe script below is using the Iris dataset ((Fisher1936?))."
+    "text": "Example for how to use quarto to make a science project.\nThe script below is using the Iris dataset (Fisher 1936)."
   },
   {
     "objectID": "myscript.html#scripting",
@@ -18,6 +18,41 @@
     "href": "myscript.html#references",
     "title": "Example Python scrip",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\nFisher, R. A. 1936. “Iris [Dataset].” https://doi.org/10.24432/C56C76."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Project",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#example-python-script",
+    "href": "index.html#example-python-script",
+    "title": "My Project",
+    "section": "Example Python script",
+    "text": "Example Python script\nFolder attachments/ can be used to store images and any type of media used in the qmd files.\nExample Python scripting"
+  },
+  {
+    "objectID": "journal.html",
+    "href": "journal.html",
+    "title": "Journal",
+    "section": "",
+    "text": "Created the github repo."
+  },
+  {
+    "objectID": "journal.html#section",
+    "href": "journal.html#section",
+    "title": "Journal",
+    "section": "",
+    "text": "Created the github repo."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]

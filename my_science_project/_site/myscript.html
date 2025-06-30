@@ -58,6 +58,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -197,14 +198,14 @@ div.csl-indent {
 
 
 <p>Example for how to use quarto to make a science project.</p>
-<p>The script below is using the Iris dataset (<span class="citation" data-cites="Fisher1936">(<a href="#ref-Fisher1936" role="doc-biblioref"><strong>Fisher1936?</strong></a>)</span>).</p>
+<p>The script below is using the Iris dataset <span class="citation" data-cites="Fisher1936">(<a href="#ref-Fisher1936" role="doc-biblioref">Fisher 1936</a>)</span>.</p>
 <section id="scripting" class="level2">
 <h2 class="anchored" data-anchor-id="scripting">scripting</h2>
-<div id="32238910" class="cell" data-execution_count="1">
+<div id="ee789439" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="1bea653a" class="cell" data-execution_count="2">
+<div id="3ea1e7aa" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'../data/iris.csv'</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
@@ -225,8 +226,10 @@ div.csl-indent {
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" role="list">
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Fisher1936" class="csl-entry" role="listitem">
+Fisher, R. A. 1936. <span>“Iris [Dataset].”</span> <a href="https://doi.org/10.24432/C56C76">https://doi.org/10.24432/C56C76</a>.
+</div>
 </div>
 
 
