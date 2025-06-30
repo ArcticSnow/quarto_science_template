@@ -16,6 +16,7 @@ My_project/
 		- index.qmd
 		- jounal.qmd
 		- about.qmd
+		- myscript.qmd
 		- styles.css
 	- data/
 ```
