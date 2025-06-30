@@ -8,6 +8,8 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ## Example Python script
 
-Folder `attachments/` can be used to store images and any type of media used in the qmd files.
+[Example Python scripting](myscript.qmd) using the infamous Iris dataset 
 
-[Example Python scripting](myscript.qmd)
+## Other
+
+Folder `attachments/` can be used to store images and any type of media used in the qmd files.

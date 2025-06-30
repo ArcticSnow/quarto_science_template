@@ -10,11 +10,13 @@ The script below is using the Iris dataset [@Fisher1936].
 
 ## scripting
 
+Load the required Python modules
 ```{python}
 import pandas as pd 
 import matplotlib.pyplot as plt
 ```
 
+Plot the data
 
 ```{python}
 df = pd.read_csv('../data/iris.csv')
@@ -26,7 +28,6 @@ plt.colorbar(label='petal length (cm)')
 plt.xlabel('Sepal length (cm)')
 plt.ylabel('Sepal width (cm)')
 plt.show()
-
 ```
 
 
