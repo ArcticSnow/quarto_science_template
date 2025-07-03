@@ -1,14 +1,31 @@
 # Quarto Science Project
 An example of how to organize a science project using Quarto
 
-
 [Quarto](https://quarto.org/) is a powerful tool to mix text, code, html objects, and bring everything into a unified website. The website runs locally (by default), and allows to bring together information, thoughts and ideas from a patchwork of sources. This Github repository is an attempt to draft the architecture of a science project using quarto.
 
 Using the principle of markup language (*e.g.* Markdown files), Quarto allows to not only display code into a neat visual way, but can execute code cells using Python, R, Julia or else given your machine is equipped with the proper executables and environment. For the gridcell to be executed, it needs to have the language of choice within curly brackets on top of the code block. Plenty of explanation are provided on Quarto's [website](https://quarto.org/docs/get-started/hello/text-editor.html). Quarto has many features. One of them is to compile the `.qmd` files into a website. There is plenty of documentation too on their [website](https://quarto.org/docs/websites/).
 
 Here we will focus on how a science project can benefit from using quarto and how it can be orginzed. 
 
-## 1. Prepare the project Architecture
+## 1. Why (not)?
+
+Jupyter notebook have been my goto tool to script in Python exploring and crunching my data. The interactivity is neat. The cell structure very well adapted to scripting and developing for data analysis. 
+However, one limitation I kept finding was searching through old notebook bits of codes. Noteboos are massive JSON files that contained so much overhead information, almost impossible to open in a simple text editor. So wihtout launching the entire `jupyter lab` app it was  hard for a huan eye to decypher the relevant information. Quarto, I find, offers the cell structure,
+the plain text format, and the possibility to export and render the notebook in a variety of formats (pdf, html, etc.). This repository is a place to share my currently evolving workflow when starting a science project.
+
+**Advantages**:
+- bring everything in one dynamic document
+	- notes
+	- code
+	- references
+	- data, etc.
+- All files are raw text and can be open and edited with any text editor. This means it easily integrates with `git` as well. 
+- The html website can be shared to anyone
+- Forced to do reproducible code. As the code is run everytime, it must be clean and organized
+- Modular at your wish within the scope to what Quarto offers (a lot!).
+
+
+## 2. Prepare the project Architecture
 ```
 My_project/
 	- README.md
@@ -82,19 +99,6 @@ The folder `my_science_project` is a dummy example of what such Quarto project m
 quarto preview my_science_project`.
 ```
 
-## 2. Why (not)?
-Current return on experience thoughts as to why (or not) using this system for your science project.
-
-**Advantages**:
-- bring everything in one dynamic document
-	- notes
-	- code
-	- references
-	- data, etc.
-- All files are raw text and can be open and edited with any text editor. This means it easily integrates with `git` as well. 
-- The html website can be shared to anyone
-- Forced to do reproducible code. As the code is run everytime, it must be clean and organized
-- Modular at your wish within the scope to what Quarto offers (a lot!).
 
 **Limits**:
 - A fair amount of manual setup to perform that may be a steep learning curve at first.
