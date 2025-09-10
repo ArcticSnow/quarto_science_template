@@ -1,4 +1,4 @@
-# Quarto Science Project
+# Quarto Science Template
 An example of how to organize a science project using Quarto
 
 [Quarto](https://quarto.org/) is a powerful tool to mix text, code, html objects, and bring everything into a unified website. The website runs locally (by default), and allows to bring together information, thoughts and ideas from a patchwork of sources. This Github repository is an attempt to draft the architecture of a science project using quarto.
